@@ -1,15 +1,4 @@
-/*Toda la pagina llevara estos atributos*/
-/*En un CSS se definen los atributos de estilo, como color, 
-poscicion relativa, tamañno y todo lo que se te ocurra 
-de los distintos tags del html*/
 
-
-
-
-/*por ejemplo esta pequeña seccion llamada "body"
-afectara a todo el body del html, lo cual es todo lo 
-visible dentro de la pagina, aqui estamos nosotros si te fijas
-definiendo el font, es el lque pusiste en tu diseño*/
 body {
 	background-color: #efefef;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -17,12 +6,6 @@ body {
 }
 
 
-
-/*en esta parte si te fijas se empieza antes de decier el nombre de
-la seccion con un #, esto signifca que estamos declarando o definiendo
-que esto sera un <div>, aqui definimos los atributos de el div llamado "page"*/
-
-/*Esto define el bloque y el margen que rodea a la pagina*/
 #page{
 	max-width: 1000px;
 	min-width: 900px;
@@ -33,21 +16,12 @@ que esto sera un <div>, aqui definimos los atributos de el div llamado "page"*/
 }
 
 
-
-
-/*Esto define los atributos del bloque que dentro 
-contiene el logo y con el "auto" centra dicho bloque 
-dentro de la pagina*/
 #logo{
 	margin: 10px auto 25px auto;
 	width: 150px;
 	height: 124px;
 }
 
-/*Esto le da atributos todos los <ul> que son listas, 
-estas son el menu y los logos de las redes sociales, 
-con estos atributos se definen en cuanto tamaño y el margen "auto" 
-los centra dentro de lo que es la pagina*/
 ul{
 	width: 870px;
 	padding: 15px;
@@ -55,10 +29,7 @@ ul{
 	text-align: center;
 }
 
-/*Esta id  (el nombre de un <div> es conocido como id) 
-le pertenece al menu de navegacion, 
-le agrega las lineas de arriba y abajo, 
-puramente estetico*/
+
 #navigation{
 	border-top: 2px solid #000;
 	border-bottom: 1px solid #000;
@@ -66,9 +37,6 @@ puramente estetico*/
 
 
 
-/*Estos atributos afectas a lo elemntos dentro de las listas, 
-sin esto las listas se organizarian 
-verticalmente y no horizontalmente*/
 li{
 	display: inline;
 	margin: 0px 3px;
@@ -76,7 +44,6 @@ li{
 
 
 
-/*Atributos dados a los parrafos de la pagina*/
 p{
 	text-align: center;
 	width: 600px;
@@ -86,7 +53,6 @@ p{
 
 
 
-/*Atributos dados a los Hyperlinks de la pagina*/
 a {
 	color: #000000;
 	text-transform: uppercase;
@@ -96,16 +62,12 @@ a {
 
 
 
-/*Atributos dados a los Hyperlinks del la pagina en 
-el momento que el cursor se encuentra por encima de estos*/
 a:hover, a.on{
 	color:#cc3333;
 	background-color: #ffffff;
 }
 
 
-/*atributos dados a elemntos <blockquote> que se 
-encuentra en la pagina "faqs.html"*/
 blockquote{
 	width: 50;
 	font-size: 100%;
